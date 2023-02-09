@@ -1406,11 +1406,9 @@ color: var(--first-background-color);
 
 }
 
-.header-item-link:hover {
-  color: var(--seconary-color);
-}
 
-.header-item-link:focus {
+
+.header-item-link:focus,.header-item-link:hover {
   color: var(--third-color);
 }
 
@@ -1895,11 +1893,11 @@ color: var(--first-background-color);
   height: 40px;
   padding-left: 16px;
   margin-right: 24px;
-
+  color: #75757580;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
-
+outline: none;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -1910,6 +1908,10 @@ color: var(--first-background-color);
   border-radius: 4px;
 
 
+}
+
+.contact-email:focus{
+border-color: #4D5AE5;
 }
 
 
